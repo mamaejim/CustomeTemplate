@@ -1,0 +1,356 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "type": "string",
+            "metadata": "Data Factory name",
+            "defaultValue": "ReproTest"
+        },
+        "AzureStorageLinkedService61_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService61'"
+        },
+        "AzureStorageLinkedService62_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService62'"
+        },
+        "AzureStorageLinkedService63_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService63'"
+        },
+        "AzureStorageLinkedService64_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService64'"
+        },
+        "AzureStorageLinkedService65_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService65'"
+        },
+        "AzureStorageLinkedService66_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService66'"
+        },
+        "AzureStorageLinkedService67_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService67'"
+        },
+        "AzureStorageLinkedService68_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService68'"
+        },
+        "AzureStorageLinkedService69_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService69'"
+        },
+        "AzureStorageLinkedService70_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService70'"
+        },
+        "AzureStorageLinkedService71_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService71'"
+        },
+        "AzureStorageLinkedService72_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService72'"
+        },
+        "AzureStorageLinkedService73_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService73'"
+        },
+        "AzureStorageLinkedService74_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService74'"
+        },
+        "AzureStorageLinkedService75_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService75'"
+        },
+        "AzureStorageLinkedService76_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService76'"
+        },
+        "AzureStorageLinkedService77_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService77'"
+        },
+        "AzureStorageLinkedService78_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService78'"
+        },
+        "AzureStorageLinkedService79_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService79'"
+        },
+        "AzureStorageLinkedService80_connectionString": {
+            "type": "secureString",
+            "metadata": "Secure string for 'connectionString' of 'AzureStorageLinkedService80'"
+        }
+    },
+    "variables": {
+        "factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+    },
+    "resources": [
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService61')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService61_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService62')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService62_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService63')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService63_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService64')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService64_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService65')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService65_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService66')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService66_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService67')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService67_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService68')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService68_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService69')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService69_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService70')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService70_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService71')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService71_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService72')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService72_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService73')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService73_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService74')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService74_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService75')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService75_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService76')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService76_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService77')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService77_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService78')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService78_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService79')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService79_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        },
+        {
+            "name": "[concat(parameters('factoryName'), '/AzureStorageLinkedService80')]",
+            "type": "Microsoft.DataFactory/factories/linkedServices",
+            "apiVersion": "2018-06-01",
+            "properties": {
+                "annotations": [],
+                "type": "AzureStorage",
+                "typeProperties": {
+                    "connectionString": "[parameters('AzureStorageLinkedService80_connectionString')]"
+                }
+            },
+            "dependsOn": []
+        }
+    ]
+}

@@ -1,0 +1,789 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "ReproTest"
+        },
+        "AzureStorageLinkedService1_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService2_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService3_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService4_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService5_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService6_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService7_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService8_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService9_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService10_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService11_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService12_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService13_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService14_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService15_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService16_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService17_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService18_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService19_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService20_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService21_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService22_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService23_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService24_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService25_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService26_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService27_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService28_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService29_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService30_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService31_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService32_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService33_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService34_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService35_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService36_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService37_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService38_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService39_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService40_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService41_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService42_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService43_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService44_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService45_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService46_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService47_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService48_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService49_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService50_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService51_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService52_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService53_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService54_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService55_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService56_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService57_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService58_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService59_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService60_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService61_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService62_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService63_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService64_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService65_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService66_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService67_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService68_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService69_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService70_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService71_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService72_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService73_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService74_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService75_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService76_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService77_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService78_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService79_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService80_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService81_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService82_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService83_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService84_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService85_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService86_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService87_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService88_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService89_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService90_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService91_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService92_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService93_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService94_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService95_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService96_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService97_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService98_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService99_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService100_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService101_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService102_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService103_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService104_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService105_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService106_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService107_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService108_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService109_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService110_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService111_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService112_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService113_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService114_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService115_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService116_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService117_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService118_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService119_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService120_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService121_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService122_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService123_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService124_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService125_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService126_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService127_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService128_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService129_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService130_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService131_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService132_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService133_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService134_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService135_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService136_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService137_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService138_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService139_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService140_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService141_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService142_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService143_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService144_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService145_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService146_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService147_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService148_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService149_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService150_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService151_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService152_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService153_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService154_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService155_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService156_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService157_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService158_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService159_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService160_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService161_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService162_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService163_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService164_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService165_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService166_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService167_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService168_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService169_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService170_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService171_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService172_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService173_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService174_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService175_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService176_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService177_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService178_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService179_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService180_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService181_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService182_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService183_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService184_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService185_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService186_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService187_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService188_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService189_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService190_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService191_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService192_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService193_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService194_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService195_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService196_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService197_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService198_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService199_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService200_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService201_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService202_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService203_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService204_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService205_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService206_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService207_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService208_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService209_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService210_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService211_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService212_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService213_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService214_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService215_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService216_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService217_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService218_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService219_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService220_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService221_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService222_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService223_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService224_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService225_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService226_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService227_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService228_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService229_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService230_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService231_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService232_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService233_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService234_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService235_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService236_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService237_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService238_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService239_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService240_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService241_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService242_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService243_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService244_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService245_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService246_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService247_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService248_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService249_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService250_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService251_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService252_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService253_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService254_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService255_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService256_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService257_connectionString": {
+            "value": ""
+        },
+        "AzureStorageLinkedService258_connectionString": {
+            "value": ""
+        },
+        "containerUri": {
+            "value": ""
+        },
+        "containerSasToken": {
+            "value": ""
+        }
+    }
+}
